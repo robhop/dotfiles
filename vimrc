@@ -7,7 +7,7 @@ nmap <leader>vr :sp $MYVIMRC<cr>
 nmap <leader>so :source $MYVIMRC<cr>
 nmap <leader>w :w!<cr>
 
-imap jk <esc> 
+imap jj <esc> 
 
 call plug#begin()
 
