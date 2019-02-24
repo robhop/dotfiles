@@ -10,7 +10,7 @@ noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
 
-imap jj <esc> 
+imap ,, <esc> 
 
 call plug#begin()
 
