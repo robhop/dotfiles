@@ -1,5 +1,8 @@
 let mapleader = "\<Space>"
 
+imap ,, <esc> 
+set number
+
 nmap <leader>vr :sp $MYVIMRC<cr>
 nmap <leader>so :source $MYVIMRC<cr>
 nmap <leader>w :w!<cr>
@@ -10,11 +13,10 @@ noremap <Leader>p "*p
 noremap <Leader>Y "+y
 noremap <Leader>P "+p
 
-imap ,, <esc> 
-
 call plug#begin()
 
 Plug 'elmcast/elm-vim'
+Plug 'tpope/vim-surround'
 
 call plug#end()
 
