@@ -18,3 +18,5 @@ Plug 'elmcast/elm-vim'
 
 call plug#end()
 
+
+" background=dark
