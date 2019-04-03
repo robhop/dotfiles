@@ -1,0 +1,58 @@
+{
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\pythonw.exe",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                ",",
+                ","
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+         {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "after": [
+                "^"]
+        },
+         {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ]
+        },
+         {
+            "before": [
+                "leader",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer",
+            ]
+        },
+    ],
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "relative",
+    "python.linting.enabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": true,
+    "workbench.tree.indent": 12
+}
